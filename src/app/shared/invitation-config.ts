@@ -1,7 +1,7 @@
 export const INVITATION_CONFIG = {
   cover: {
-    initials: 'LyC',
-    date: '11 · 10 · 2025',
+    initials: 'Jena y Mili',
+    date: '06 · 11 · 2025',
     buttonText: 'Ingresar a mi invitación'
   },
 
@@ -39,7 +39,7 @@ export const INVITATION_CONFIG = {
     {
       titulo: 'Recepción',
       hora: '12:00 p.m.',
-      icon: 'img/iglesia.gif'
+      icon: 'img/bell.gif'
     },
     {
       titulo: 'Almuerzo',

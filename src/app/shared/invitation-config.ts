@@ -1,7 +1,7 @@
 export const INVITATION_CONFIG = {
   cover: {
     initials: 'Jena y Mili',
-    date: '06 · 11 · 2025',
+    date: '06 · 12 · 2025',
     buttonText: 'Ingresar a mi invitación'
   },
 

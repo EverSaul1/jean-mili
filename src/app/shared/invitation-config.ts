@@ -5,6 +5,7 @@ export const INVITATION_CONFIG = {
     buttonText: 'Ingresar a mi invitación'
   },
 
+
   coupleNames: 'Luis & Carla',
   dayText: 'Sábado',
   dateText: '11 de octubre de 2025',

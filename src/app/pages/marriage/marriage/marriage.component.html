@@ -25,7 +25,7 @@
     <!-- Botón -->
     <button
       (click)="scrollToInvitation()"
-      class="bg-[#7a1d2f] my-3 sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
+      class="bg-[#4F1505] my-3 sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
     >
       {{ invitation.cover.buttonText }}
     </button>
@@ -33,12 +33,12 @@
 } @else {
   <!--<img src="img/nombres.png">-->
   <section
-    class="relative min-h-screen w-full p-3 fondo m-0 from-rose-50 via-amber-50 to-rose-100 flex items-center justify-center px-0 pt-0 pb-24"
+    class="relative pt-4 min-h-screen w-full p-3 fondo m-0 from-rose-50 via-amber-50 to-rose-100 flex items-center justify-center px-0 pt-0 pb-24"
   >
   <div class="flex flex-col items-center gap-0 md:gap-5 w-full">
-    <div class="relative h-[100px]">
+    <!--<div class="relative h-[100px]">
       <img src="img/flores1.png" class="transform rotate-180 -translate-y-2/3">
-    </div>
+    </div>-->
     <div>
       <p class="text-center text-color font-greadVibes sm:text-lg text-sm">
         "El destino nos puso en el mismo<br>
@@ -155,7 +155,7 @@
       <div class="relative flex justify-center items-center pb-5">
         <button
           (click)="addToGoogleCalendar()"
-          class="bg-[#7a1d2f] sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
+          class="bg-[#4F1505] sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
         >
           Agendar el evento
         </button>
@@ -196,18 +196,18 @@
         </div>
         <div class="font-greadVibes">
           <p class="text-color font-semibold">PADRES DE LA NOVIA</p>
-          <small class="text-color">{{invitation.padres.novio.padre}}</small><br>
-          <small class="text-color">{{invitation.padres.novio.madre}}</small>
+          <small class="text-color">{{invitation.padres.novia.padre}}</small><br>
+          <small class="text-color">{{invitation.padres.novia.madre}}</small>
         </div>
         <div class="font-greadVibes">
           <p class="text-color font-semibold">PADRINOS MAYORES</p>
-          <small class="text-color">{{invitation.padres.novio.padre}}</small><br>
-          <small class="text-color">{{invitation.padres.novio.madre}}</small>
+          <small class="text-color">{{invitation.padrinos.mayores.padre}}</small><br>
+          <small class="text-color">{{invitation.padrinos.mayores.madre}}</small>
         </div>
         <div class="font-greadVibes">
           <p class="text-color font-semibold">PADRES DE ARO</p>
-          <small class="text-color">{{invitation.padres.novio.padre}}</small><br>
-          <small class="text-color">{{invitation.padres.novio.madre}}</small>
+          <small class="text-color">{{invitation.padrinos.aros.padre}}</small><br>
+          <small class="text-color">{{invitation.padrinos.aros.madre}}</small>
         </div>
       </div>
     </div>
@@ -223,7 +223,7 @@
         src="https://invitali.com/wp-content/uploads/2025/06/FLORES-CARMESI.webp"
         class="w-1/6 mx-auto mb-2.5"
       />
-      <p class="text-center text-color font-greadVibes sm:text-xl text-md ">¡ACOMPAÑANOS A CELEBRAR NUESTRO AMOR!</p>
+      <p class="text-center text-color font-greadVibes sm:text-xl text-md ">¡ACOMPAÑANOS A CELEBRAR NUESTRO UNIÓN!</p>
     </div>
       <div class="justify-between xl:flex-row flex lg:w-[50%] w-full flex-col text-center xl:gap-16 gap-5 sm:text-xl text-md mt-3 px-10">
         <div class="font-greadVibes flex justify-center flex-col items-center">
@@ -232,26 +232,26 @@
           <div class="flex flex-wrap gap-3.5 justify-center items-end pb-5">
             <small class="text-color font-semibold sm:text-4xl text-2xl">09:00 am </small>
             <small class="text-color font-semibold sm:text-4xl text-2xl">|</small>
-            <small class="text-color sm:text-xl text-md">Inglesia ..</small>
+            <small class="text-color sm:text-xl text-md">Parroquia "SANTISIMA TRINIDAD" - Juliaca</small>
           </div>
           <button
             (click)="openGoolemap('iglesia')"
-            class="bg-[#7a1d2f] sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
+            class="bg-[#4F1505] sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
           >
             Ver ubicación
           </button>
         </div>
         <div class="font-greadVibes flex justify-center flex-col items-center">
-          <img src="img/email.gif" class="w-[80px]" alt="icon">
-          <p class="text-color ">RECEPCIÓN SOCIAL</p>
+          <img src="img/civil.gif" class="w-[80px]" alt="icon">
+          <p class="text-color ">CEREMONIA CIVIL</p>
           <div class="flex flex-wrap gap-3.5 justify-center items-end pb-5">
-            <small class="text-color font-semibold sm:text-4xl text-2xl">12:00 pm </small>
+            <small class="text-color font-semibold sm:text-4xl text-2xl">11:00 am </small>
             <small class="text-color font-semibold sm:text-4xl text-2xl">|</small>
-            <small class="text-color sm:text-xl text-md">Local de Eventos ROSE</small>
+            <small class="text-color sm:text-xl text-md">Local de Eventos "JARDINES DE JAIT"</small>
           </div>
           <button
             (click)="openGoolemap('local')"
-            class="bg-[#7a1d2f] sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
+            class="bg-[#4F1505] sm:text-xl text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
           >
             Ver ubicación
           </button>
@@ -268,10 +268,10 @@
         <svg class="w-full h-[30px] " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
           <path d="M194,99c186.7,0.7,305-78.3,306-97.2c1,18.9,119.3,97.9,306,97.2c114.3-0.3,194,0.3,194,0.3s0-91.7,0-100c0,0,0,0,0-0 L0,0v99.3C0,99.3,79.7,98.7,194,99z"></path> </svg>
       </div>
-      <div class="h-[100px] tracking-[1em] font-greadVibes w-full text-white flex items-center flex-col justify-center text-center text-sm md:text-xl">
-        <p class="font-semibold md:text-[2.6rem] text-4xl tracking-[0.1em] py-2.5 font-romantic text-white text-center mb-4 shadow-name"
+      <div class="h-[100px] tracking-[1em] w-full text-white flex items-center flex-col justify-center text-center text-sm md:text-xl">
+        <p class="font-semibold md:text-[2.6rem] text-4xl tracking-[0.2em] py-2.5 font-romantic text-white text-center mb-4 shadow-name"
         >
-          Iterenario
+          Programa
         </p>
       </div>
       <div class="w-full flex-grow-1">
@@ -322,6 +322,30 @@
         </ng-template>
 
       }
+    </div>
+    <div class="bg-[#4F1505] p-2 xl:rounded-2xl w-full xl:w-1/2 mx-2.5 my-2.5">
+      <p class="text-center text-white font-greadVibes sm:text-xl text-md ">
+        Amamos a sus pequeños, pero queremos este dia solo tengan que preocuparse por pasarla increible.
+      </p>
+    </div>
+    <div class="relative flex justify-center flex-col items-center w-full px-2 pt-4">
+
+      <!-- Foto de pareja dentro -->
+      <img
+        src="https://cdn0.bodas.com.mx/article/3583/3_2/960/jpg/53853-boda.jpeg"
+        class="w-[80%] object-cover rounded-2xl"
+      />
+      <p class="text-center text-color font-greadVibes sm:text-xl text-md pt-3.5">
+        Tu presencia es importante para nosotros,
+        por favor <br> indícanos tu asistencia antes del <br>
+        30 de Noviembre 2025.
+      </p>
+      <button
+        (click)="openWhatsapp()"
+        class="bg-[#4F1505] sm:text-xl my-2 text-md font-greadVibes animate-pulse-smooth text-white px-7 py-3 rounded-lg hover:bg-[#5c1422] transition-all"
+      >
+        Confirmar asistencia
+      </button>
     </div>
 
   </div>

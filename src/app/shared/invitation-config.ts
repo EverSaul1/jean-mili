@@ -27,8 +27,8 @@ export const INVITATION_CONFIG = {
   },
 
   maps: {
-    iglesia: 'https://maps.app.goo.gl/KLf9Mk2xkpNFxCoE6',
-    local: 'https://maps.app.goo.gl/CqRV2AVBsHsQvgJw7'
+    iglesia: 'https://maps.app.goo.gl/f464LwhAwanfP4ua6',
+    local: 'https://maps.app.goo.gl/JJDXFoeCAepzaHgx5'
   },
 
   iterenario: [
@@ -38,29 +38,39 @@ export const INVITATION_CONFIG = {
       icon: 'img/iglesia.gif'
     },
     {
-      titulo: 'Recepción',
-      hora: '12:00 p.m.',
-      icon: 'img/bell.gif'
+      titulo: 'Ceremonia Civil',
+      hora: '11:00 a.m.',
+      icon: 'img/civil.gif'
     },
     {
-      titulo: 'Almuerzo',
+      titulo: 'Recepción',
       hora: '12:30 p.m.',
-      icon: 'img/almuerzo.gif'
+      icon: 'img/email.gif'
     },
     {
       titulo: 'Ceremonia',
-      hora: '01:00 p.m.',
-      icon: 'img/iglesia.gif'
+      hora: '1:00 p.m.',
+      icon: 'img/cremonia.gif'
     },
     {
-      titulo: 'Inicio de Fiesta',
-      hora: '03:00 p.m.',
-      icon: 'img/fiesta.gif'
+      titulo: 'Almuerzo',
+      hora: '02:30 p.m.',
+      icon: 'img/almuerzo.gif'
+    },
+    {
+      titulo: 'Empieza la magia',
+      hora: '04:00 p.m.',
+      icon: 'img/tango.gif'
+    },
+    {
+      titulo: 'Salida del local',
+      hora: '06:00 a.m.',
+      icon: 'img/car.gif'
     }
   ],
 
-  whatsappPhone: '964439876',
-  whatsappMessage: 'Confirmo mi asistencia a la boda de Luis y Carla',
+  whatsappPhone: '954895762',
+  whatsappMessage: 'Confirmo mi asistencia a la boda de jean y Mili',
 
   notes: [
     'Tu presencia será nuestro mejor regalo.',
@@ -72,22 +82,22 @@ export const INVITATION_CONFIG = {
   },
   padres: {
     novio: {
-      madre: 'Ana María Pérez',
-      padre: 'José Luis Gómez'
+      madre: 'Yola Hilasaca Mamani',
+      padre: 'Adalberto Hilasaca Mamani'
     },
     novia: {
-      madre: 'Ana María Pérez',
-      padre: 'José Luis Gómez'
+      madre: 'A. Mariza Quispe Condori',
+      padre: 'Javier Paredes Ugarte'
     }
   },
   padrinos: {
     aros: {
-      madre: 'Ana María Pérez',
-      padre: 'José Luis Gómez'
+      madre: 'Mily Ccaso Huanca',
+      padre: 'Julver Cordova Choque'
     },
     mayores: {
-      madre: 'Ana María Pérez',
-      padre: 'José Luis Gómez'
+      madre: 'Hania Condori Mamani',
+      padre: 'Walter Ingaluque Flores'
     }
   }
 };

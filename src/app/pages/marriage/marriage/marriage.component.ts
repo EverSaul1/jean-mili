@@ -17,7 +17,7 @@ export class MarriageComponent implements OnInit, AfterViewInit, OnDestroy{
   invitation = INVITATION_CONFIG;
   audio: HTMLAudioElement;
   isPlaying = false;
-  url = 'married2.mp3';
+  url = 'married3.mp3';
   isOpenInvitation: boolean = false;
   isCardOpen = false;
   invitationOpen = false;
@@ -53,9 +53,15 @@ export class MarriageComponent implements OnInit, AfterViewInit, OnDestroy{
     this.audio.volume = 0.8;
   }
 
-  get whatsappUrl(): string {
+  whatsappUrl() {
     const msg = encodeURIComponent(this.invitation.whatsappMessage);
     return `https://wa.me/${this.invitation.whatsappPhone}?text=${msg}`;
+  }
+
+  openWhatsapp() {
+    const url = this.whatsappUrl();
+    // abre en nueva pestaña/ventana de forma segura
+    window.open(url, '_blank', 'noopener,noreferrer');
   }
 
   scrollToInvitation(): void {
@@ -89,7 +95,7 @@ export class MarriageComponent implements OnInit, AfterViewInit, OnDestroy{
 
 
   createSnowflakes(): void {
-    const TOTAL_SNOWFLAKES = 25;
+    const TOTAL_SNOWFLAKES = 100;
 
     function createSnowflake() {
       const snowflake = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -105,7 +111,7 @@ export class MarriageComponent implements OnInit, AfterViewInit, OnDestroy{
 
       // SVG del copo de nieve
       snowflake.innerHTML = `
-            <path fill="white" d="M12 2L13 8H17L14 10L15 16L12 14L9 16L10 10L7 8H11L12 2Z"/>
+            <path fill="#E6F1FF" d="M12 2L13 8H17L14 10L15 16L12 14L9 16L10 10L7 8H11L12 2Z"/>
         `;
 
       document.body.appendChild(snowflake);

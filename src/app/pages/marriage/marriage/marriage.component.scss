@@ -31,8 +31,21 @@
 .text-color {
   color: #7D6842;
 }
+.text-color-principal {
+  background:
+    radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
 .shadow-name {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0px 0px 4px rgba(255, 230, 170, 0.45),
+    0px 0px 8px rgba(200, 160, 60, 0.35);
+}
+.img-shadow {
+  filter: drop-shadow(0px 6px 8px rgba(0, 0, 0, 0.4));
 }
 
 .fondo {
@@ -52,4 +65,12 @@
 .animate-pulse-smooth {
   animation: pulse-smooth 1.5s ease-in-out infinite;
 }
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  grid-auto-flow: row;
+}
+
+
 

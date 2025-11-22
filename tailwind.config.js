@@ -5,6 +5,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      display: ['masonry'],
       colors: {
         default: {
           // COLORS PRIMARY UPeU
@@ -105,9 +106,12 @@ module.exports = {
       fontFamily: {
         montserrat: ['Montserrat'],
         romantic: ['Romantic-lovely'],
-        greadVibes: ['GreadVibes-Regular'],
+        greadVibes: ['GreatVibes-Regular'],
+        playfairDisplayt: ['PlayfairDisplayt'],
         lato: ['Lato'],
-        body: ['Montserrat']
+        body: ['Montserrat'],
+        playlist: ['Playlist'],
+        alexBrushRegular: ['AlexBrush-Regular'],
       }
     },
   },

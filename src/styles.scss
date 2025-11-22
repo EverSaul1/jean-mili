@@ -12,12 +12,12 @@ body {
 .snowflake {
   position: fixed;
   top: -10%; /* Inicia por encima de la pantalla */
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   opacity: 0.8;
   animation: fall linear infinite; /* Hace que los copos caigan */
   will-change: transform, opacity;
-  z-index: 9999 !important;
+  z-index: 45 !important;
 }
 
 @keyframes fall {
@@ -68,9 +68,30 @@ body {
   src: url('../public/fonts/Romantic-lovely.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'GreatVibes-Regular2';
+  font-weight: 200;
+  src: url('../public/fonts/GreatVibes-Regular2.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'GreatVibes-Regular';
   font-weight: 900;
   src: url('../public/fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayt';
+  font-weight: 200;
+  src: url('../public/fonts/PlayfairDisplayt.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playlist';
+  font-weight: 100;
+  src: url('../public/fonts/Playlist.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AlexBrush-Regular';
+  font-weight: 100;
+  src: url('../public/fonts/AlexBrush-Regular.ttf') format('truetype');
 }
 .spinner {
   position: relative;

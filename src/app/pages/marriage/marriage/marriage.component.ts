@@ -28,7 +28,7 @@ export class MarriageComponent implements OnInit, AfterViewInit, OnDestroy{
   invitation = INVITATION_CONFIG;
   audio: HTMLAudioElement;
   isPlaying = false;
-  url = 'married3.mp3';
+  url = 'married.mp3';
   isOpenInvitation: boolean = false;
   isCardOpen = false;
   invitationOpen = false;

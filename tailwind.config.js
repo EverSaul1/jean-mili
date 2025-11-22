@@ -109,6 +109,7 @@ module.exports = {
         greadVibes: ['GreatVibes-Regular'],
         playfairDisplayt: ['PlayfairDisplayt'],
         PlaylistScript: ['Playlist-script'],
+        tangerineRegular: ['Tangerine-Regular'],
         lato: ['Lato'],
         body: ['Montserrat'],
         playlist: ['Playlist'],

@@ -12,8 +12,8 @@ body {
 .snowflake {
   position: fixed;
   top: -10%; /* Inicia por encima de la pantalla */
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   opacity: 0.8;
   animation: fall linear infinite; /* Hace que los copos caigan */
   will-change: transform, opacity;
@@ -83,10 +83,16 @@ body {
   font-weight: 200;
   src: url('../public/fonts/PlayfairDisplayt.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Playlist';
   font-weight: 100;
   src: url('../public/fonts/Playlist.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playlist-script';
+  font-weight: 100;
+  src: url('../public/fonts/Playlist-script.otf') format('truetype');
 }
 @font-face {
   font-family: 'AlexBrush-Regular';

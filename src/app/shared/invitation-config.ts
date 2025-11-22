@@ -86,7 +86,7 @@ export const INVITATION_CONFIG = {
       padre: 'Adalberto Hilasaca Mamani'
     },
     novia: {
-      madre: 'A. Mariza Quispe Condori',
+      madre: 'Mariza Quispe Condori',
       padre: 'Javier Paredes Ugarte'
     }
   },

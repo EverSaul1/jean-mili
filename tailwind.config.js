@@ -108,6 +108,7 @@ module.exports = {
         romantic: ['Romantic-lovely'],
         greadVibes: ['GreatVibes-Regular'],
         playfairDisplayt: ['PlayfairDisplayt'],
+        PlaylistScript: ['Playlist-script'],
         lato: ['Lato'],
         body: ['Montserrat'],
         playlist: ['Playlist'],

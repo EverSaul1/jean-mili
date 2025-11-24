@@ -68,8 +68,7 @@ export class MarriageComponent implements OnInit, AfterViewInit, OnDestroy{
   }
 
   whatsappUrl() {
-    const url = `https://www.invitali.site/invitacion/jean-mili`; // tu enlace real
-    const msg = encodeURIComponent(`Acompáñanos a nuestra boda ❤️✨\n${url}`);
+    const msg = encodeURIComponent(this.invitation.whatsappMessage);
     return `https://wa.me/${this.invitation.whatsappPhone}?text=${msg}`;
   }
 

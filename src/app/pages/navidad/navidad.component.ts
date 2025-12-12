@@ -74,7 +74,7 @@ export class NavidadComponent implements OnInit, AfterViewInit, OnDestroy {
       .getElementById('invitation-section')
       ?.scrollIntoView({ behavior: 'smooth' });
 
-    /*this.playMusic();*/
+    this.playMusic();
     this.isOpenInvitation = true;
   }
 

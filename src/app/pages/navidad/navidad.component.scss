@@ -1,0 +1,85 @@
+/* Animación para abrir la carta */
+.open-card {
+  animation: openCard 1s forwards;
+}
+
+/* Animación para simular que la carta se abre */
+@keyframes openCard {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg); /* Gira hasta la mitad */
+  }
+  100% {
+    transform: rotateY(180deg); /* Completa la apertura */
+  }
+}
+
+.dorado {
+  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+   radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    svg path {
+     fill: #151D3A
+   }*/
+  background: #4F1505;
+/*  svg path {
+    fill: #EFECE9
+  }*/
+}
+
+.text-color {
+  background:
+    radial-gradient(ellipse farthest-corner at right bottom, #FFF4D6 0%, #FFE9A3 12%, #F7D98A 28%, #EED08A 45%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFBE5 10%, #F4E5B8 30%, #E0C78A 60%, #E0C78A 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.button-dorado {
+  background:
+    radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+
+.text-color-principal {
+  background:
+    radial-gradient(ellipse farthest-corner at right bottom, #FFF4D6 0%, #FFE9A3 12%, #F7D98A 28%, #EED08A 45%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFBE5 10%, #F4E5B8 30%, #E0C78A 60%, #E0C78A 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.shadow-name {
+  text-shadow:
+    0px 0px 4px rgba(255, 230, 170, 0.45),
+    0px 0px 8px rgba(200, 160, 60, 0.35);
+}
+.img-shadow {
+  filter: drop-shadow(0px 6px 8px rgba(0, 0, 0, 0.4));
+}
+
+.fondo {
+  /*background: radial-gradient(circle at top, #0a0e1d, #0f1a2e, #161e3d, #0e1a2b);*/
+  background: #8A0A08
+}
+
+@keyframes pulse-smooth {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.animate-pulse-smooth {
+  animation: pulse-smooth 1.5s ease-in-out infinite;
+}
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  grid-auto-flow: row;
+}
+
+
+

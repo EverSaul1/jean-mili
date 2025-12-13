@@ -8,8 +8,8 @@ export const routes: Routes = [
     component: MarriageComponent
   },
   {
-    path:'fiesta-navideña',
+    path:'christmas-party',
     component: NavidadComponent
   },
-  { path: '**', redirectTo: 'fiesta-navideña', pathMatch: 'full' },
+  { path: '**', redirectTo: 'christmas-party', pathMatch: 'full' },
 ];

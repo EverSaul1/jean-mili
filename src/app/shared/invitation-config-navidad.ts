@@ -27,7 +27,7 @@ export const INVITATION_CONFIG_NAVIDAD = {
   },
 
   maps: {
-    iglesia: 'https://maps.app.goo.gl/f464LwhAwanfP4ua6',
+    iglesia: 'https://maps.app.goo.gl/kRunsfHVHBTfi1dA8',
     local: 'https://maps.app.goo.gl/JJDXFoeCAepzaHgx5'
   },
 

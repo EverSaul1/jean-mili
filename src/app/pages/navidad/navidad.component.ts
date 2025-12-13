@@ -186,13 +186,13 @@ export class NavidadComponent implements OnInit, AfterViewInit, OnDestroy {
   //AÑADIR AL GOOGLE CALENDAR
 
   addToGoogleCalendar() {
-    const title = encodeURIComponent('Boda de Jean y Meli');
-    const details = encodeURIComponent('¡Acompáñanos en nuestro gran día!');
+    const title = encodeURIComponent('Fiesta navideña familiar');
+    const details = encodeURIComponent('¡Acompáñanos en este dia especial!');
     const location = encodeURIComponent('Juliaca, Perú');
 
     // Formato ISO: YYYYMMDDTHHmmssZ
-    const start = '20251206T130000Z'; // 8am Perú = 13:00 UTC
-    const end = '20251206T220000Z';   // 10am Perú = 15:00 UTC
+    const start = '20251225T150000Z'; // 8am Perú = 13:00 UTC
+    const end = '20251225T220000Z';   // 10am Perú = 15:00 UTC
 
     const url = `https://www.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${start}/${end}&details=${details}&location=${location}`;
     window.open(url, '_blank');

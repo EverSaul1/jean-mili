@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import {MarriageComponent} from "./pages/marriage/marriage/marriage.component";
-import {NavidadComponent} from "./pages/navidad/navidad.component";
+import {CarnavalesComponent} from "./pages/carnavales/carnavales.component";
 
 export const routes: Routes = [
   {
@@ -8,8 +8,8 @@ export const routes: Routes = [
     component: MarriageComponent
   },
   {
-    path:'christmas-party',
-    component: NavidadComponent
+    path:'invitacion-chiuchico',
+    component: CarnavalesComponent
   },
-  { path: '**', redirectTo: 'christmas-party', pathMatch: 'full' },
+  { path: '**', redirectTo: 'invitacion-chiuchico', pathMatch: 'full' },
 ];

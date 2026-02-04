@@ -2,7 +2,7 @@ export const INVITATION_CONFIG_NAVIDAD = {
   cover: {
     initials: 'Jena y Mili',
     date: '06 · 12 · 2025',
-    buttonText: 'Ingresar a mi invitación'
+    buttonText: 'Invitación'
   },
 
 

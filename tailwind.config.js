@@ -114,6 +114,8 @@ module.exports = {
         body: ['Montserrat'],
         playlist: ['Playlist'],
         alexBrushRegular: ['AlexBrush-Regular'],
+        dynaPuff: ['DynaPuff'],
+        merienda: ['Merienda']
       }
     },
   },

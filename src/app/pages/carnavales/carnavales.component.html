@@ -54,8 +54,8 @@
 
         <!-- Foto de pareja dentro -->
         <img
-          src="img-ross/pepino2.png"
-          class="w-[90%] sm:w-[40%] object-cover rounded-2xl transform img-shadow"
+          src="img-ross/iglesia.jpeg"
+          class="w-[90%] sm:w-[90%] object-cover rounded-2xl transform img-shadow"
         />
       </div>
      <!-- <div class="w-full flex-grow-1">
@@ -90,7 +90,7 @@
 
           <!-- Lado derecho -->
           <div class="border-t border-b border-[#F2D48A] ml-4 text-center py-3 md:px-10 px-0">
-            <span class="sm:text-2xl text-sm">FEBRERO</span>
+            <span class="sm:text-2xl text-sm">&nbsp;&nbsp;&nbsp;FEBRERO&nbsp;&nbsp;&nbsp;</span>
           </div>
         </div>
         <div class="text-center text-[#7a1d2f] pb-5">
@@ -140,22 +140,26 @@
             Agendar el evento
           </button>
         </div>
+        <div class="flex justify-center px-6 w-full">
+          <video
+            class="rounded-lg w-full px-16 sm:px-3 max-w-lg h-auto rotate-[-90deg]"
+            autoplay
+            loop
+            [muted]="true"
+            playsinline
+          >
+            <source src="img-ross/video2.mp4" type="video/mp4">
+          </video>
+        </div>
         <div class="relative flex justify-center flex-col items-center w-full px-2">
           <!-- Foto de pareja dentro -->
-          <div class="flex justify-center pt-2.5">
-            <img
-              #foto
-              (load)="onImgsReady()"
-              src="img-ross/baile.jpeg"
-              class="w-[95%] sm:w-[80%] object-cover rounded-2xl transition-all duration-1000 ease-in-out origin-center img-shadow"
-            />
-          </div>
+
           <div class="xl:flex-row flex xl:w-[55%] w-full flex-col items-center justify-center mb-3.5">
             <div class="flex justify-center  flex-col text-center gap-5 sm:text-2xl text-xl mt-3 px-10">
               <div class="font-lato">
-                <p class="text-color font-tangerineRegular text-5xl text-color-principal">Alferados</p>
-                <small class="text-color font-montserrat">{{invitation.alferados.primero}}</small><br>
-                <small class="text-color font-montserrat">{{invitation.alferados.segundo}}</small>
+                <p class="text-color font-merienda font-bold text-3xl text-color-principal uppercase pb-3">Alferados</p>
+                <small class="text-color font-merienda font-bold">{{invitation.alferados.primero}}</small><br>
+                <small class="text-color font-merienda font-bold">{{invitation.alferados.segundo}}</small>
               </div>
             </div>
           </div>
@@ -176,15 +180,31 @@
         <img
           #foto
           (load)="onImgsReady()"
-          src="img-ross/putina2.jpeg"
+          src="img-ross/baile.jpeg"
+          class="w-[95%] sm:w-[80%] object-cover rounded-2xl transition-all duration-1000 ease-in-out origin-center img-shadow"
+        />
+
+      </div>
+      <div class="pt-2.5">
+        <img
+          src="img-ross/anti.PNG"
+          class="w-1/4 mx-auto mb-2.5"
+        />
+      </div>
+      <div class="flex justify-center pt-2.5 gap-4">
+        <img
+          #foto
+          (load)="onImgsReady()"
+          src="img-ross/baile2.jpeg"
           class="w-[95%] sm:w-[80%] object-cover rounded-2xl transition-all duration-1000 ease-in-out origin-center img-shadow"
         />
       </div>
+
       <div class="p-2 xl:rounded-2xl w-full xl:w-1/2 mx-2.5 mt-3.5">
-        <p class="text-center text-black font-montserrat sm:text-lg text-md pt-3.5 px-3">
+        <p class="text-center text-black font-dynaPuff sm:text-lg text-md pt-3.5 px-3">
           "Donde la tradición se vuelve danza: Carnaval Chiuchico" <br>
-          Hay tradiciones que se llevan en la sangre y el Chiuchico es una de ellas. Te invitamos a vivir la magia barrio libertad, a pintar tus mejillas con la huella de nuestros ancestros y a bailar en círculo bajo el cielo de los Andes.
-          No es solo un carnaval, es el reencuentro con nuestras raíces. ¡No faltes!
+          Hay tradiciones que se llevan en la sangre y el Chiuchico es una de ellas. Te invitamos a vivir la magia barrio libertad, a pintar tus mejillas con la huella de nuestros ancestros y a bailar bajo el cielo de los Andes.
+          No es solo un carnaval, es el reencuentro con nuestras raíces. <br> ¡No faltes!
         </p>
       </div>
       <div class="p-2 xl:rounded-2xl w-full xl:w-1/2 uppercase mx-2.5 mt-3.5">
@@ -192,8 +212,8 @@
           src="img-ross/anti.PNG"
           class="w-1/4 mx-auto mb-2.5"
         />
-        <p class="text-center text-color-principal2 font-lato sm:text-xl text-md uppercase">Amenizan</p>
-        <p class="text-center text-color-principal2 font-lato sm:text-xl text-md uppercase">Grupo Sorpresa</p>
+        <p class="text-center text-color-principal2 font-dynaPuff sm:text-xl text-md uppercase">Amenizan</p>
+        <p class="text-center text-color-principal2 font-dynaPuff sm:text-xl text-md uppercase">Grupo Sorpresa</p>
       </div>
       <div class="justify-center xl:flex-row flex lg:w-[50%] w-full flex-col text-center xl:gap-16 gap-5 sm:text-xl text-md mt-3 px-10">
         <div class="font-lato flex justify-center flex-col items-center">
@@ -207,7 +227,7 @@
       </div>
       <div class="relative flex justify-center flex-col items-center w-full px-2 pt-4">
         <img class="w-full sm:w-1/2 mx-auto my-3" src="img/15-rominaRecurso-61separador.svg">
-        <p class="md:text-[4.6rem] text-color-principal2  text-3xl py-3 px-1 tracking-[0.1em] sm:py-2.5 font-PlaylistScript text-center mb-4 "
+        <p class="md:text-[4.6rem] text-color-principal2  text-3xl py-3 px-1 tracking-[0.1em] sm:py-2.5 font-dynaPuff text-center mb-4 "
         >
           ¡Te esperamos!
         </p>

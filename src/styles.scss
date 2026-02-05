@@ -104,6 +104,16 @@ body {
   font-weight: 100;
   src: url('../public/fonts/Tangerine-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'DynaPuff';
+  font-weight: 100;
+  src: url('../public/fonts/DynaPuff.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Merienda';
+  font-weight: 100;
+  src: url('../public/fonts/Merienda.ttf') format('truetype');
+}
 .spinner {
   position: relative;
   width: 90px;

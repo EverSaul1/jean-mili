@@ -1,4 +1,13 @@
-import {Component, ElementRef, OnDestroy, OnInit, QueryList, ViewChildren} from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  OnDestroy,
+  OnInit,
+  QueryList,
+  ViewChild,
+  ViewChildren
+} from '@angular/core';
 import {DecimalPipe, TitleCasePipe, UpperCasePipe} from "@angular/common";
 import {INVITATION_CONFIG_CARNAVAL} from "../../shared/invitation-config-carnval";
 import {INVITATION_CONFIG} from "../../shared/invitation-config";
@@ -14,13 +23,14 @@ import {INVITATION_CONFIG} from "../../shared/invitation-config";
   templateUrl: './carnavales.component.html',
   styleUrl: './carnavales.component.scss'
 })
-export class CarnavalesComponent implements OnInit, OnDestroy{
+export class CarnavalesComponent implements OnInit, OnDestroy, AfterViewInit{
 
   @ViewChildren('foto') fotos!: QueryList<ElementRef<HTMLImageElement>>;
+
   invitation = INVITATION_CONFIG_CARNAVAL;
   audio: HTMLAudioElement;
   isPlaying = false;
-  url = 'huayno.mp3';
+  url = 'pandilla.mp3';
   isOpenInvitation: boolean = false;
   isCardOpen = false;
   invitationOpen = false;
@@ -33,7 +43,6 @@ export class CarnavalesComponent implements OnInit, OnDestroy{
 
   private intervalId: any;
   private targetDate = new Date(this.invitation.date).getTime();
-
 
 
   ngOnInit(): void {

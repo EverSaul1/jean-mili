@@ -114,6 +114,11 @@ body {
   font-weight: 100;
   src: url('../public/fonts/Merienda.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'TitanOne';
+  font-weight: 100;
+  src: url('../public/fonts/TitanOne.ttf') format('truetype');
+}
 .spinner {
   position: relative;
   width: 90px;

@@ -55,8 +55,20 @@
     radial-gradient(circle at 50% 50%, #B100FF 0%, #2A0040 75%);   /* violeta neón */
   -webkit-background-clip: text;
   color: transparent;
+
+  /* Borde negro */
+  -webkit-text-stroke: 1px black; /* grosor y color del borde */
+  text-stroke: 1px black;
 }
 
+.text-color-principal3 {
+  background:
+    radial-gradient(ellipse farthest-corner at right bottom, #FFF4D6 0%, #FFE9A3 12%, #F7D98A 28%, #EED08A 45%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFBE5 10%, #F4E5B8 30%, #E0C78A 60%, #E0C78A 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
 .text-color-principal {
   background:
     radial-gradient(ellipse farthest-corner at right bottom, #FFF4D6 0%, #FFE9A3 12%, #F7D98A 28%, #EED08A 45%, transparent 80%),

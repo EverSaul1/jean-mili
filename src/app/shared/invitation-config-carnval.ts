@@ -33,29 +33,19 @@ export const INVITATION_CONFIG_CARNAVAL = {
 
   iterenario: [
     {
-      titulo: 'Misa de agradecimiento',
-      hora: '10:30 a.m.',
-      icon: 'img-ross/church.gif'
+      titulo: 'Concentración',
+      hora: '3:00 a.m.',
+      icon: 'img-ross/festival.gif'
     },
     {
-      titulo: 'Deporte mixto',
-      hora: '12:00 a.m.',
-      icon: 'img-ross/beach-ball.gif'
+      titulo: 'Almuerzo',
+      hora: '1:00 p.m.',
+      icon: 'img-ross/restaurant.gif'
     },
     {
-      titulo: 'Almuerzo familiar',
-      hora: '14:00 p.m.',
-      icon: 'img-ross/vegan-food.gif'
-    },
-    {
-      titulo: 'Hinkana familiar',
+      titulo: 'Presentación Grupo Sorpresa',
       hora: '15:00 p.m.',
-      icon: 'img-ross/running.gif'
-    },
-    {
-      titulo: 'Intercambio de regalos',
-      hora: '17:00 p.m.',
-      icon: 'img-ross/open-gift.gif'
+      icon: 'img-ross/festival1.gif'
     },
   ],
 
@@ -71,8 +61,8 @@ export const INVITATION_CONFIG_CARNAVAL = {
     referencia:'1 Corintios 13:7'
   },
   alferados: {
-    primero: 'Alejandro A. Carcasi choque',
-    segundo: 'Daría Chambi calisaya'
+    primero: 'Alejandro A. Carcasi Choque',
+    segundo: 'Daría Chambi Calisaya'
   },
   padres: {
     novio: {

@@ -115,6 +115,7 @@ module.exports = {
         playlist: ['Playlist'],
         alexBrushRegular: ['AlexBrush-Regular'],
         dynaPuff: ['DynaPuff'],
+        titanOne: ['TitanOne'],
         merienda: ['Merienda']
       }
     },

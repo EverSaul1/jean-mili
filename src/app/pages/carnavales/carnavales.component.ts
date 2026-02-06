@@ -8,7 +8,7 @@ import {
   ViewChild,
   ViewChildren
 } from '@angular/core';
-import {DecimalPipe, TitleCasePipe, UpperCasePipe} from "@angular/common";
+import {DecimalPipe, NgIf, TitleCasePipe, UpperCasePipe} from "@angular/common";
 import {INVITATION_CONFIG_CARNAVAL} from "../../shared/invitation-config-carnval";
 import {INVITATION_CONFIG} from "../../shared/invitation-config";
 
@@ -18,7 +18,8 @@ import {INVITATION_CONFIG} from "../../shared/invitation-config";
   imports: [
     DecimalPipe,
     UpperCasePipe,
-    TitleCasePipe
+    TitleCasePipe,
+    NgIf
   ],
   templateUrl: './carnavales.component.html',
   styleUrl: './carnavales.component.scss'
